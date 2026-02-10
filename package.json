@@ -1,0 +1,16 @@
+{
+  "name": "test0",
+  "version": "1.0.0",
+  "description": "E2E test project",
+  "main": "src/greet.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"]
+  }
+}
