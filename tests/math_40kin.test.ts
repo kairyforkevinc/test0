@@ -10,4 +10,14 @@ describe('calculate_40kin', () => {
     const result = calculate_40kin(-5, -10);
     expect(result).toBe(-15);
   });
+
+  it('should handle zero values', () => {
+    expect(calculate_40kin(10, 0)).toBe(10);
+    expect(calculate_40kin(0, 5)).toBe(5);
+  });
+
+  it('should return the sum of a positive and negative number', () => {
+    const result = calculate_40kin(10, -3);
+    expect(result).toBe(7);
+  });
 });
