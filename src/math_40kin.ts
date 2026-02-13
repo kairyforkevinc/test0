@@ -1,6 +1,6 @@
 /**
- * Math utility module providing calculate_40kin operation.
- * This module contains the calculate_40kin function for adding two numbers.
+ * Math utility module providing calculate_40kin operations.
+ * This module contains functions for basic arithmetic operations.
  */
 
 /**
@@ -11,4 +11,14 @@
  */
 export function calculate_40kin(a: number, b: number): number {
   return a + b;
+}
+
+/**
+ * Multiplies two numbers together.
+ * @param a - The first number to multiply
+ * @param b - The second number to multiply
+ * @returns The product of a and b
+ */
+export function multiply_40kin(a: number, b: number): number {
+  return a * b;
 }
