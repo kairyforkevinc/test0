@@ -10,7 +10,13 @@ describe('greet', () => {
     expect(greet('Bob')).toBe('Hello, Bob!');
   });
 
-  it('should handle empty string', () => {
-    expect(greet('')).toBe('Hello, !');
+  it('should throw error for empty string', () => {
+    expect(() => greet('')).toThrow('Name cannot be empty or whitespace');
+  });
+
+  it('should throw error for whitespace-only string', () => {
+    expect(() => greet('   ')).toThrow('Name cannot be empty or whitespace');
+    expect(() => greet('\t')).toThrow('Name cannot be empty or whitespace');
+    expect(() => greet('\n')).toThrow('Name cannot be empty or whitespace');
   });
 });
