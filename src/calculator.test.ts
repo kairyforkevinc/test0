@@ -1,4 +1,4 @@
-import { add, subtract, multiply } from './calculator';
+import { add, subtract, multiply, divide } from './calculator';
 
 describe('Calculator Utilities', () => {
   describe('add', () => {
@@ -116,6 +116,56 @@ describe('Calculator Utilities', () => {
 
     it('should throw error for NaN', () => {
       expect(() => multiply(NaN, 5)).toThrow('Arguments must be finite numbers');
+    });
+  });
+
+  describe('divide', () => {
+    it('should divide two positive numbers', () => {
+      expect(divide(6, 3)).toBe(2);
+      expect(divide(20, 4)).toBe(5);
+    });
+
+    it('should divide negative numbers', () => {
+      expect(divide(-10, -2)).toBe(5);
+      expect(divide(-10, 2)).toBe(-5);
+      expect(divide(10, -2)).toBe(-5);
+    });
+
+    it('should divide by one', () => {
+      expect(divide(5, 1)).toBe(5);
+      expect(divide(-10, 1)).toBe(-10);
+    });
+
+    it('should divide zero by a number', () => {
+      expect(divide(0, 5)).toBe(0);
+      expect(divide(0, -5)).toBe(0);
+    });
+
+    it('should divide decimal numbers', () => {
+      expect(divide(5, 2)).toBe(2.5);
+      expect(divide(1, 3)).toBeCloseTo(0.333, 2);
+      expect(divide(0.5, 0.25)).toBe(2);
+    });
+
+    it('should throw error for division by zero', () => {
+      expect(() => divide(5, 0)).toThrow('Cannot divide by zero');
+      expect(() => divide(0, 0)).toThrow('Cannot divide by zero');
+      expect(() => divide(-10, 0)).toThrow('Cannot divide by zero');
+    });
+
+    it('should throw error for non-number inputs', () => {
+      expect(() => divide('10' as any, 2)).toThrow('Both arguments must be numbers');
+      expect(() => divide(10, null as any)).toThrow('Both arguments must be numbers');
+    });
+
+    it('should throw error for infinite values', () => {
+      expect(() => divide(Infinity, 5)).toThrow('Arguments must be finite numbers');
+      expect(() => divide(5, -Infinity)).toThrow('Arguments must be finite numbers');
+    });
+
+    it('should throw error for NaN', () => {
+      expect(() => divide(NaN, 5)).toThrow('Arguments must be finite numbers');
+      expect(() => divide(5, NaN)).toThrow('Arguments must be finite numbers');
     });
   });
 });
