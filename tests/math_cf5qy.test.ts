@@ -40,4 +40,8 @@ describe('multiply_cf5qy', () => {
   it('should throw TypeError for NaN input', () => {
     expect(() => multiply_cf5qy(NaN, 1)).toThrow(TypeError);
   });
+
+  it('should throw TypeError for Infinity input', () => {
+    expect(() => multiply_cf5qy(1, Infinity)).toThrow(TypeError);
+  });
 });
