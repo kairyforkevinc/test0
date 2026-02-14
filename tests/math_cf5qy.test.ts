@@ -13,4 +13,12 @@ describe('calculate_cf5qy', () => {
     expect(calculate_cf5qy(0, 8)).toBe(8);
     expect(calculate_cf5qy(12, 0)).toBe(12);
   });
+
+  it('should throw TypeError for NaN input', () => {
+    expect(() => calculate_cf5qy(NaN, 1)).toThrow(TypeError);
+  });
+
+  it('should throw TypeError for Infinity input', () => {
+    expect(() => calculate_cf5qy(1, Infinity)).toThrow(TypeError);
+  });
 });
