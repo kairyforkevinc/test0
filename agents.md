@@ -6,7 +6,7 @@ E2E test project with math and string utility functions. Each module exports a s
 ## Public Interfaces
 - `greet(name: string): string` — returns `"Hello, {name}!"`
 - `greet_i228(name: string): string` — returns `"Hello, {name}!"`
-- `greet_i231(name: string): string` — returns `"Hello, {name}!"`
+- `greet_i231(name: string): string` — returns `"Hello, {name}!"`, throws if name is empty/whitespace
 - `add_{suffix}(a: number, b: number): number` — addition (suffixes: wxcvj, l6oz0, 4r8xd, w7ndf)
 - `subtract_{suffix}(a: number, b: number): number` — subtraction (suffixes: wxcvj, l6oz0, 4r8xd, m25pw, u7x6u, uno1e, w7ndf)
 - `multiply_{suffix}(a: number, b: number): number` — multiplication (suffixes: wxcvj, l6oz0, m25pw, 4r8xd, w7ndf)
