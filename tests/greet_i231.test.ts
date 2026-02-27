@@ -10,7 +10,11 @@ describe('greet_i231', () => {
     expect(greet_i231('Bob')).toBe('Hello, Bob!');
   });
 
-  it('should handle empty string', () => {
-    expect(greet_i231('')).toBe('Hello, !');
+  it('should throw an error for empty string', () => {
+    expect(() => greet_i231('')).toThrow('Name must not be empty');
+  });
+
+  it('should throw an error for whitespace-only string', () => {
+    expect(() => greet_i231('   ')).toThrow('Name must not be empty');
   });
 });

@@ -9,5 +9,8 @@
  * @returns A greeting string in the format "Hello, {name}!"
  */
 export function greet_i231(name: string): string {
+  if (!name.trim()) {
+    throw new Error('Name must not be empty');
+  }
   return `Hello, ${name}!`;
 }
