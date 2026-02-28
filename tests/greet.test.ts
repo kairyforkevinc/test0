@@ -14,4 +14,10 @@ describe('greet', () => {
   it('should handle empty string', () => {
     expect(greet('')).toBe('Hello, !');
   });
+
+  it('should handle special characters', () => {
+    expect(greet('O\'Brien')).toBe("Hello, O'Brien!");
+    expect(greet('José')).toBe('Hello, José!');
+    expect(greet('<script>')).toBe('Hello, <script>!');
+  });
 });
