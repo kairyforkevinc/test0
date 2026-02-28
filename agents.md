@@ -5,7 +5,7 @@ E2E test project with math utility functions. Each module exports a single funct
 
 ## Public Interfaces
 - `greet(name: string): string` — returns `"Hello, {name}!"`
-- `greet_mm6crhi1(name: string): string` — returns `"Hello, {name}!"`
+- `greet_mm6crhi1(name: string): string` — returns `"Hello, {name}!"`, throws `Error('Name cannot be empty')` for empty/whitespace-only input
 - `add_*(a: number, b: number): number` — addition (multiple variants)
 - `subtract_*(a: number, b: number): number` — subtraction (multiple variants)
 - `multiply_*(a: number, b: number): number` — multiplication (multiple variants)

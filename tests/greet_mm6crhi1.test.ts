@@ -10,8 +10,12 @@ describe('greet_mm6crhi1', () => {
     expect(greet_mm6crhi1('Bob')).toBe('Hello, Bob!');
   });
 
-  it('should handle empty string', () => {
-    expect(greet_mm6crhi1('')).toBe('Hello, !');
+  it('should throw an error for empty string', () => {
+    expect(() => greet_mm6crhi1('')).toThrow('Name cannot be empty');
+  });
+
+  it('should throw an error for whitespace-only string', () => {
+    expect(() => greet_mm6crhi1('   ')).toThrow('Name cannot be empty');
   });
 
   it('should handle special characters', () => {
