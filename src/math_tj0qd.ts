@@ -1,5 +1,5 @@
 /**
- * Math utility module providing the calculate_tj0qd function.
+ * Math utility module providing calculate and multiply functions.
  */
 
 /**
@@ -10,4 +10,14 @@
  */
 export function calculate_tj0qd(a: number, b: number): number {
   return a + b;
+}
+
+/**
+ * Multiplies two numbers.
+ * @param a - The first number
+ * @param b - The second number
+ * @returns The product of a and b
+ */
+export function multiply_tj0qd(a: number, b: number): number {
+  return a * b;
 }
