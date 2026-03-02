@@ -1,6 +1,6 @@
 /**
  * Math utility module providing basic arithmetic operations.
- * This module contains the calculate_rz23k function for addition.
+ * This module contains the calculate_rz23k and subtract_rz23k functions.
  */
 
 /**
@@ -11,4 +11,14 @@
  */
 export function calculate_rz23k(a: number, b: number): number {
   return a + b;
+}
+
+/**
+ * Subtracts the second number from the first.
+ * @param a - The number to subtract from
+ * @param b - The number to subtract
+ * @returns The difference of a and b
+ */
+export function subtract_rz23k(a: number, b: number): number {
+  return a - b;
 }

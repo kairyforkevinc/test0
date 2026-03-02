@@ -1,4 +1,4 @@
-import { calculate_rz23k } from '../src/math_rz23k';
+import { calculate_rz23k, subtract_rz23k } from '../src/math_rz23k';
 
 describe('calculate_rz23k', () => {
   it('should return the sum of two positive numbers', () => {
@@ -20,5 +20,20 @@ describe('calculate_rz23k', () => {
 
   it('should handle decimal numbers', () => {
     expect(calculate_rz23k(1.5, 2.3)).toBeCloseTo(3.8);
+  });
+});
+
+describe('subtract_rz23k', () => {
+  it('should return the difference of two positive numbers', () => {
+    expect(subtract_rz23k(10, 4)).toBe(6);
+  });
+
+  it('should handle subtraction resulting in negative numbers', () => {
+    expect(subtract_rz23k(3, 8)).toBe(-5);
+  });
+
+  it('should handle zero values', () => {
+    expect(subtract_rz23k(0, 5)).toBe(-5);
+    expect(subtract_rz23k(7, 0)).toBe(7);
   });
 });
