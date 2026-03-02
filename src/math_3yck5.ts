@@ -1,5 +1,5 @@
 /**
- * Math utility module providing the calculate_3yck5 function.
+ * Math utility module providing calculate_3yck5 and multiply_3yck5 functions.
  */
 
 /**
@@ -10,4 +10,14 @@
  */
 export function calculate_3yck5(a: number, b: number): number {
   return a + b;
+}
+
+/**
+ * Calculates the product of two numbers.
+ * @param a - The first number to multiply
+ * @param b - The second number to multiply
+ * @returns The product of a and b
+ */
+export function multiply_3yck5(a: number, b: number): number {
+  return a * b;
 }
