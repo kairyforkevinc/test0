@@ -6,6 +6,7 @@ E2E test project with utility functions (math, greet, farewell). Each module exp
 ## Public Interfaces
 - `farewell(name: string): string` — returns `"Goodbye, {name}!"`
 - `greet(name: string): string` — returns `"Hello, {name}!"`
+- `greet_juqtv(name: string): string` — returns `"Hello, {name}!"` via `greeting_juqtv.ts`
 - `greet_mm6crhi1(name: string): string` — returns `"Hello, {name}!"`, throws `Error('Name cannot be empty')` for empty/whitespace-only input
 - `add_*(a: number, b: number): number` — addition (multiple variants, includes `add_fyizk`)
 - `subtract_*(a: number, b: number): number` — subtraction (multiple variants, includes `subtract_fyizk`)
