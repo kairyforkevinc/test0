@@ -26,8 +26,12 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `greet_5kcy3(name)` — greeting utility, PR #343 open (issue #341)
 
 ### Newly Requested (PRs Open)
-- `calculate_v2kbe(a, b)` — sum function, PR #348 open (issue #346)
+- `calculate_v2kbe(a, b)` + `multiply_v2kbe(a, b)` — sum & product functions, PR #348 open (issue #346)
 - `greet_ebk2v(name)` — greeting utility, PR #351 open (issue #349)
+- `greet_juqtv(name)` — greeting utility, issue #358 (dev sub-issue #359)
+
+### Recently Merged
+- `calculate_vtquj(a, b)` — sum function, PR #357 merged (issue #355)
 
 ### Feature Requests (Not Scoped)
 - Structured logging for 32mtp module (#336) — needs discussion, low priority
