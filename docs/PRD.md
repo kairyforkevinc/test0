@@ -28,20 +28,25 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 ### Newly Requested (PRs Open)
 - `calculate_v2kbe(a, b)` + `multiply_v2kbe(a, b)` — sum & product functions, PR #348 open (issue #346)
 - `greet_ebk2v(name)` — greeting utility, PR #351 open (issue #349)
-- `greet_juqtv(name)` — greeting utility, issue #358 (dev sub-issue #359)
+- `greet_juqtv(name)` — greeting utility, PR #361 open (issue #358)
+- `subtract_wt6vj(a, b)` — subtraction, issue #368 (parent #366 Task 2)
+- `multiply_wt6vj(a, b)` — multiplication, issue #369 (parent #366 Task 3)
 
 ### Recently Merged
 - `calculate_vtquj(a, b)` — sum function, PR #357 merged (issue #355)
+- `add_wt6vj(a, b)` — addition, PR #370 merged (issue #367, parent #366 Task 1)
 
 ### Feature Requests (Not Scoped)
 - Structured logging for 32mtp module (#336) — needs discussion, low priority
 - Structured logging for 3yck5 module (#344) — needs discussion, low priority
 - Structured logging for v2kbe module (#352) — needs discussion, low priority
+- Structured logging for vtquj module (#362) — needs discussion, low priority
 
 ### Planning
 - Refactor of 32mtp module (#337) — premature, deferred until #332 merges and #336 is scoped
 - Refactor of 3yck5 module (#345) — premature, deferred until #340 merges and #344 is scoped
 - Refactor of v2kbe module (#353) — premature, deferred until #348 merges and #352 is scoped
+- Refactor of vtquj module (#363) — premature, deferred until #362 is scoped
 
 ## Non-Requirements
 - No runtime entry point (library only)
