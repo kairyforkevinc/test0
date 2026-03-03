@@ -12,6 +12,7 @@ E2E test project with utility functions (math, greet, farewell). Each module exp
 - `multiply_*(a: number, b: number): number` — multiplication (multiple variants, includes `multiply_fyizk`)
 - `divide_*(a: number, b: number): number` — division with zero-check (multiple variants, includes `divide_fyizk`)
 - `calculate_*(a: number, b: number): number` — math operations via `math_*.ts` modules (includes `calculate_fwakg`, `calculate_vtquj`)
+- `multiply_vtquj(a: number, b: number): number` — multiplication via `math_vtquj.ts`
 - `math_cf5qy.ts` validates inputs with `Number.isFinite()`, throws `TypeError` for NaN/Infinity
 
 ## External Dependencies
