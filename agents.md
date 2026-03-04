@@ -8,7 +8,7 @@ E2E test project with utility functions (math, greet, farewell). Each module exp
 - `greet(name: string): string` — returns `"Hello, {name}!"`
 - `greet_mm6crhi1(name: string): string` — returns `"Hello, {name}!"`, throws `Error('Name cannot be empty')` for empty/whitespace-only input
 - `add_*(a: number, b: number): number` — addition (multiple variants, includes `add_fyizk`, `add_wt6vj`)
-- `subtract_*(a: number, b: number): number` — subtraction (multiple variants, includes `subtract_fyizk`)
+- `subtract_*(a: number, b: number): number` — subtraction (multiple variants, includes `subtract_fyizk`, `subtract_bwv2l_c`)
 - `multiply_*(a: number, b: number): number` — multiplication (multiple variants, includes `multiply_fyizk`)
 - `divide_*(a: number, b: number): number` — division with zero-check (multiple variants, includes `divide_fyizk`)
 - `calculate_*(a: number, b: number): number` — math operations via `math_*.ts` modules (includes `calculate_fwakg`, `calculate_vtquj`)
