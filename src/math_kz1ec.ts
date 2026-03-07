@@ -12,3 +12,7 @@
 export function calculate_kz1ec(a: number, b: number): number {
   return a + b;
 }
+
+export function multiply_kz1ec(a: number, b: number): number {
+  return a * b;
+}
