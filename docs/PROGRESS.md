@@ -6,6 +6,7 @@
 
 | PR | Description | Issues Resolved | Date |
 |----|-------------|-----------------|------|
+| #498 | `divide_ungea` division | #497 | 2026-03-07 |
 | #496 | `multiply_ungea` multiplication | #491 (parent #488) | 2026-03-07 |
 | #493 | `add_ungea` addition | #489 (parent #488) | 2026-03-07 |
 | #448 | `multiply_p5ru9_b` multiplication | #445 | 2026-03-07 |
