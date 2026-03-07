@@ -31,6 +31,8 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `add_ungea(a, b)` — PR #493 merged
 - `multiply_ungea(a, b)` — PR #496 merged
 - `divide_ungea(a, b)` — PR #498 merged
+- `subtract_ungea(a, b)` — PR #505 merged
+- `greet_mmgvbzws(name)` — PR #503 merged
 
 ### In Progress — PRs Open (QA Approved, Need Rebase)
 - `greet_juqtv(name)` — PR #395 (issue #359)
@@ -84,7 +86,6 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `add_ss3z3_a(a, b)` — issue #479 (parent #474)
 - `multiply_ss3z3_b(a, b)` — issue #481 (parent #475)
 - `subtract_ss3z3_c(a, b)` — PR #486 open (issue #484, parent #476)
-- `subtract_ungea(a, b)` — PR #494 open, needs rebase (issue #490, parent #488)
 
 ### Feature Requests (Not Scoped)
 - Structured logging for 32mtp module (#336) — needs discussion, low priority
