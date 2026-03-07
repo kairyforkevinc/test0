@@ -20,6 +20,7 @@ E2E test project with utility functions (math, greet, farewell). Each module exp
 - `divide_*(a: number, b: number): number` — division with zero-check (multiple variants, includes `divide_fyizk`, `divide_wt6vj`, `divide_nuogg`, `divide_ungea`)
 - `calculate_*(a: number, b: number): number` — math operations via `math_*.ts` modules (includes `calculate_fwakg`, `calculate_vtquj`, `calculate_q0aq8`)
 - `math_cf5qy.ts` validates inputs with `Number.isFinite()`, throws `TypeError` for NaN/Infinity
+- `math_yjy7a.ts` — `calculate_yjy7a` (sum) + `multiply_yjy7a` (product), validates with `Number.isFinite()`
 
 ## External Dependencies
 Dev only: `jest`, `ts-jest`, `typescript`, `@types/jest`, `@types/node`
