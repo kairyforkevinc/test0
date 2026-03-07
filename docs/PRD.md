@@ -78,6 +78,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `subtract_qwu48_c(a, b)` — issue #463
 - `add_ss3z3_a(a, b)` — issue #479 (parent #474)
 - `multiply_ss3z3_b(a, b)` — issue #481 (parent #475)
+- `subtract_ss3z3_c(a, b)` — issue #484 (parent #476)
 
 ### Feature Requests (Not Scoped)
 - Structured logging for 32mtp module (#336) — needs discussion, low priority
