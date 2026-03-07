@@ -6,8 +6,19 @@
 
 | PR | Description | Issues Resolved | Date |
 |----|-------------|-----------------|------|
+| #448 | `multiply_p5ru9_b` multiplication | #445 | 2026-03-07 |
+| #447 | `add_p5ru9_a` addition | #443, #444 | 2026-03-07 |
+| #426 | `divide_nuogg` division | #423 | 2026-03-07 |
+| #422 | `multiply_nuogg` multiplication | #419 | 2026-03-07 |
+| #421 | `add_nuogg` addition | #417 | 2026-03-07 |
+| #420 | `subtract_nuogg` subtraction | #418 | 2026-03-07 |
+| #415 | docs update (heartbeat) | — | 2026-03-07 |
 | #412 | `greet_mmgmt0pb` greeting | #410, #411 | 2026-03-07 |
+| #408 | `greet_mmgm8eh4` greeting | #406, #407 | 2026-03-07 |
+| #402 | `greet_ce1zk` greeting | #400, #401 | 2026-03-07 |
+| #395 | `greet_juqtv` greeting | #359 | 2026-03-07 |
 | #394 | `greet_ebk2v` greeting | #350 | 2026-03-07 |
+| #282 | `calculate_q0aq8` math utility | #280, #281 | 2026-03-07 |
 | #392 | `divide_wt6vj` division | #372 | 2026-03-07 |
 | #390 | `multiply_wt6vj` multiplication | #369 (parent #366 Task 3) | 2026-03-07 |
 | #388 | `subtract_wt6vj` subtraction | #368 (parent #366 Task 2) | 2026-03-07 |
@@ -25,11 +36,20 @@
 - [x] Task 3: `multiply_wt6vj` — merged via PR #390
 - [x] `divide_wt6vj` — merged via PR #392 (separate issue #372)
 
-### Open PRs — QA Approved, Awaiting Rebase (merge conflicts)
-- PR #408 — `greet_mmgm8eh4` (issue #406) — rebase requested
-- PR #402 — `greet_ce1zk` (issue #400) — rebase requested
-- PR #398 — `calculate_kz1ec` (issue #396) — rebase requested
-- PR #395 — `greet_juqtv` (issue #359) — rebase requested
+### Parent Issue #416 — Build nuogg math module ✅ COMPLETE
+- [x] `add_nuogg` — merged via PR #421
+- [x] `subtract_nuogg` — merged via PR #420
+- [x] `multiply_nuogg` — merged via PR #422
+- [x] `divide_nuogg` — merged via PR #426
+
+### Parent Issue p5ru9 utilities — In Progress
+- [x] `add_p5ru9_a` — merged via PR #447 (issue #443)
+- [x] `multiply_p5ru9_b` — merged via PR #448 (issue #445)
+- [ ] `subtract_p5ru9_c` — PR #451 open, QA approved, needs rebase (issue #446, sub-issue #450)
+
+### Open PRs — QA Approved, Awaiting Rebase (agents.md conflicts) — /dev requested on all
+- PR #451 — `subtract_p5ru9_c` (issue #446)
+- PR #398 — `calculate_kz1ec` (issue #396)
 - PR #335 — `greet_ptm23` (issue #334)
 - PR #332 — `calculate_32mtp` (issue #331)
 - PR #311 — `greet_v565v` (issue #310)
@@ -49,14 +69,13 @@
 - PR #364 — docs: vtquj logging/refactor tracking
 
 ### Open PRs — Awaiting QA Review
-- PR #382 — `add_bwv2l_a` (issue #376)
+- PR #382 — `add_bwv2l_a` (issue #376) — QA retriggered 2026-03-07
 - PR #326 — `calculate_0i7zc` (issue #325)
 - PR #320 — `calculate_yomat` (issue #319)
-- PR #232 — `greet_i231` (issue #231)
+- PR #232 — `greet_i231` (issue #231) — QA retriggered 2026-03-07
 
 ### Open PRs — Changes Requested
-- PR #282 — `calculate_q0aq8` — scope creep (remove `multiply_q0aq8`), dev retriggered
-- PR #149 — `calculate_unufx` — needs more test cases, dev retriggered
+- PR #149 — `calculate_unufx` — needs agents.md update, dev retriggered 2026-03-07
 
 ### Stalled Issues — Dev Retriggered 2026-03-07
 - #347 — `calculate_v2kbe`
@@ -84,6 +103,17 @@
 - #353 — refactor v2kbe
 - #363 — refactor vtquj
 - #405 — refactor kz1ec
+
+## Session Actions — 2026-03-07 (3rd cycle)
+1. **Merged**: PR #447 (`add_p5ru9_a`) and PR #448 (`multiply_p5ru9_b`) — CI green on main
+2. **Closed issues**: #443, #444 (via PR #447), #445 (via PR #448)
+3. **Closed duplicates**: PR #425 (dup of #426)
+4. **Triaged**: #445 (multiply_p5ru9_b — already had dev, PR #448 arrived), #446 (subtract_p5ru9_c — sub-issue #450 created, /dev delegated)
+5. **PR #451** (subtract_p5ru9_c): QA approved, product reviewed, needs rebase — /dev requested
+6. **Rebase requested**: All 16+ QA-approved PRs with agents.md conflicts — /dev requested on each
+7. **PR #149**: Dev added test cases; QA re-reviewed, found agents.md missing — /dev retriggered
+8. **QA retriggered**: PRs #382, #232 — still no reviews
+9. **PR #398**: QA approved, scope creep fixed, rebased but main changed again — 2nd rebase requested
 
 ## Heartbeat Actions — 2026-03-07 (2nd cycle)
 1. **Merged**: PR #412 (greet_mmgmt0pb) — CI green on main
