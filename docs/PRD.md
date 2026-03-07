@@ -106,6 +106,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - Refactor of v2kbe module (#353) — deferred until #348 merges and #352 is scoped
 - Refactor of vtquj module (#363) — deferred until #362 is scoped
 - Refactor of kz1ec module (#405) — deferred until #398 merges and #404 is scoped
+- Refactor of yjy7a module (#527) — deferred until #519 merges and #524 is scoped
 
 ## Non-Requirements
 - No runtime entry point (library only)
