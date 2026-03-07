@@ -69,6 +69,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `calculate_unufx(a, b)` — PR #149 (needs more test cases)
 
 ### Awaiting Dev — No PR Yet
+- `greet_mmgxdy9x(name)` — issue #510
 - `greet_mmgwpwub(name)` — issue #507
 - `calculate_v2kbe(a, b)` — issue #347
 - `greet_5kcy3(name)` — issue #342
