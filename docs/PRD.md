@@ -28,6 +28,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `multiply_wt6vj(a, b)` — PR #390 merged
 - `divide_wt6vj(a, b)` — PR #392 merged
 - `calculate_x4u8k(a, b)` — PR #316 merged
+- `add_ungea(a, b)` — PR #493 merged
 
 ### In Progress — PRs Open (QA Approved, Need Rebase)
 - `greet_juqtv(name)` — PR #395 (issue #359)
@@ -52,6 +53,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `greet_i228(name)` — PR #230 (issue #228)
 
 ### In Progress — PRs Open (Awaiting QA)
+- `subtract_ungea(a, b)` — PR #494 (issue #490, parent #488)
 - `subtract_ss3z3_c(a, b)` — PR #486 (issue #484, parent #476)
 - `add_bwv2l_a(a, b)` — PR #382 (issue #376)
 - `calculate_0i7zc(a, b)` — PR #326 (issue #325)
@@ -80,8 +82,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `add_ss3z3_a(a, b)` — issue #479 (parent #474)
 - `multiply_ss3z3_b(a, b)` — issue #481 (parent #475)
 - `subtract_ss3z3_c(a, b)` — PR #486 open (issue #484, parent #476)
-- `add_ungea(a, b)` — issue #489 (parent #488)
-- `subtract_ungea(a, b)` — issue #490 (parent #488)
+- `subtract_ungea(a, b)` — issue #490 (parent #488), PR #494 awaiting QA
 - `multiply_ungea(a, b)` — issue #491 (parent #488)
 
 ### Feature Requests (Not Scoped)
