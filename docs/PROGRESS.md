@@ -6,6 +6,7 @@
 
 | PR | Description | Issues Resolved | Date |
 |----|-------------|-----------------|------|
+| #390 | `multiply_wt6vj` multiplication | #369 (parent #366 Task 3) | 2026-03-07 |
 | #388 | `subtract_wt6vj` subtraction | #368 (parent #366 Task 2) | 2026-03-07 |
 | #385 | `subtract_bwv2l_c` subtraction | #378 (parent #375) | 2026-03-07 |
 | #384 | `multiply_bwv2l_b` multiplication | #377 (parent #374) | 2026-03-07 |
@@ -15,10 +16,10 @@
 
 ## Open Work
 
-### Parent Issue #366 — Build math utility module wt6vj (2/4 complete)
+### Parent Issue #366 — Build math utility module wt6vj (3/4 complete)
 - [x] Task 1: `add_wt6vj` — merged via PR #370
 - [x] Task 2: `subtract_wt6vj` — merged via PR #388
-- [ ] Task 3: `multiply_wt6vj` — issue #369, dev retriggered 2026-03-07
+- [x] Task 3: `multiply_wt6vj` — merged via PR #390
 - [ ] Task 4: `divide_wt6vj` — issue #372, dev retriggered 2026-03-07
 
 ### Open PRs — QA Approved, Awaiting Rebase (merge conflicts)
