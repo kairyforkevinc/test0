@@ -30,6 +30,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `calculate_x4u8k(a, b)` — PR #316 merged
 - `add_ungea(a, b)` — PR #493 merged
 - `multiply_ungea(a, b)` — PR #496 merged
+- `divide_ungea(a, b)` — PR #498 merged
 
 ### In Progress — PRs Open (QA Approved, Need Rebase)
 - `greet_juqtv(name)` — PR #395 (issue #359)
