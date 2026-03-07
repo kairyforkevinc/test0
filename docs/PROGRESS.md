@@ -47,6 +47,11 @@
 - [x] `multiply_p5ru9_b` — merged via PR #448 (issue #445)
 - [ ] `subtract_p5ru9_c` — PR #451 open, QA approved, needs rebase (issue #446, sub-issue #450)
 
+### Parent Issues ss3z3 utilities — In Progress
+- [ ] `add_ss3z3_a` — issue #479, no PR yet
+- [ ] `multiply_ss3z3_b` — issue #481, no PR yet
+- [ ] `subtract_ss3z3_c` — PR #486 open, awaiting QA (issue #484, parent #476)
+
 ### Open PRs — QA Approved, Awaiting Rebase (agents.md conflicts) — /dev requested on all
 - PR #451 — `subtract_p5ru9_c` (issue #446)
 - PR #398 — `calculate_kz1ec` (issue #396)
@@ -69,6 +74,7 @@
 - PR #364 — docs: vtquj logging/refactor tracking
 
 ### Open PRs — Awaiting QA Review
+- PR #486 — `subtract_ss3z3_c` (issue #484, parent #476)
 - PR #382 — `add_bwv2l_a` (issue #376) — QA retriggered 2026-03-07
 - PR #326 — `calculate_0i7zc` (issue #325)
 - PR #320 — `calculate_yomat` (issue #319)

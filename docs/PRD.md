@@ -52,6 +52,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `greet_i228(name)` — PR #230 (issue #228)
 
 ### In Progress — PRs Open (Awaiting QA)
+- `subtract_ss3z3_c(a, b)` — PR #486 (issue #484, parent #476)
 - `add_bwv2l_a(a, b)` — PR #382 (issue #376)
 - `calculate_0i7zc(a, b)` — PR #326 (issue #325)
 - `calculate_yomat(a, b)` — PR #320 (issue #319)
@@ -78,7 +79,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `subtract_qwu48_c(a, b)` — issue #463
 - `add_ss3z3_a(a, b)` — issue #479 (parent #474)
 - `multiply_ss3z3_b(a, b)` — issue #481 (parent #475)
-- `subtract_ss3z3_c(a, b)` — issue #484 (parent #476)
+- `subtract_ss3z3_c(a, b)` — PR #486 open (issue #484, parent #476)
 
 ### Feature Requests (Not Scoped)
 - Structured logging for 32mtp module (#336) — needs discussion, low priority
