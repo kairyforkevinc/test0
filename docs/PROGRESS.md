@@ -6,6 +6,7 @@
 
 | PR | Description | Issues Resolved | Date |
 |----|-------------|-----------------|------|
+| #496 | `multiply_ungea` multiplication | #491 (parent #488) | 2026-03-07 |
 | #493 | `add_ungea` addition | #489 (parent #488) | 2026-03-07 |
 | #448 | `multiply_p5ru9_b` multiplication | #445 | 2026-03-07 |
 | #447 | `add_p5ru9_a` addition | #443, #444 | 2026-03-07 |
@@ -55,8 +56,8 @@
 
 ### Parent Issue #488 — Build math utility module ungea — In Progress
 - [x] `add_ungea` — merged via PR #493 (issue #489)
-- [ ] `subtract_ungea` — PR #494 open, awaiting QA (issue #490)
-- [ ] `multiply_ungea` — issue #491, awaiting dev PR
+- [x] `multiply_ungea` — merged via PR #496 (issue #491)
+- [ ] `subtract_ungea` — PR #494 open, QA+PM approved, needs rebase (issue #490)
 
 ### Open PRs — QA Approved, Awaiting Rebase (agents.md conflicts) — /dev requested on all
 - PR #451 — `subtract_p5ru9_c` (issue #446)
