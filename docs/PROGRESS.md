@@ -6,6 +6,8 @@
 
 | PR | Description | Issues Resolved | Date |
 |----|-------------|-----------------|------|
+| #412 | `greet_mmgmt0pb` greeting | #410, #411 | 2026-03-07 |
+| #394 | `greet_ebk2v` greeting | #350 | 2026-03-07 |
 | #392 | `divide_wt6vj` division | #372 | 2026-03-07 |
 | #390 | `multiply_wt6vj` multiplication | #369 (parent #366 Task 3) | 2026-03-07 |
 | #388 | `subtract_wt6vj` subtraction | #368 (parent #366 Task 2) | 2026-03-07 |
@@ -24,6 +26,10 @@
 - [x] `divide_wt6vj` — merged via PR #392 (separate issue #372)
 
 ### Open PRs — QA Approved, Awaiting Rebase (merge conflicts)
+- PR #408 — `greet_mmgm8eh4` (issue #406) — rebase requested
+- PR #402 — `greet_ce1zk` (issue #400) — rebase requested
+- PR #398 — `calculate_kz1ec` (issue #396) — rebase requested
+- PR #395 — `greet_juqtv` (issue #359) — rebase requested
 - PR #335 — `greet_ptm23` (issue #334)
 - PR #332 — `calculate_32mtp` (issue #331)
 - PR #311 — `greet_v565v` (issue #310)
@@ -53,11 +59,8 @@
 - PR #149 — `calculate_unufx` — needs more test cases, dev retriggered
 
 ### Stalled Issues — Dev Retriggered 2026-03-07
-- #376 — `add_bwv2l_a` (has PR #382)
-- #350 — `greet_ebk2v` (prev PR #351 closed)
-- #359 — `greet_juqtv` (prev PR #361 closed)
-- #347 — `calculate_v2kbe` (prev PR #348 closed)
-- #342 — `greet_5kcy3` (prev PR #343 closed)
+- #347 — `calculate_v2kbe`
+- #342 — `greet_5kcy3`
 - #339 — `calculate_3yck5`
 - #328 — `greet_cz7i0`
 - #323 — `calculate_zrye3`
@@ -73,21 +76,26 @@
 - #344 — logging for 3yck5
 - #352 — logging for v2kbe
 - #362 — logging for vtquj
+- #404 — logging for kz1ec
 
 ### Planning (Deferred)
 - #337 — refactor 32mtp
 - #345 — refactor 3yck5
 - #353 — refactor v2kbe
 - #363 — refactor vtquj
+- #405 — refactor kz1ec
 
-## Heartbeat Actions — 2026-03-07
-1. **Merged**: PR #384 (multiply_bwv2l_b), PR #316 (calculate_x4u8k) — CI green
-2. **Closed duplicate**: PR #383 (dup of #384)
-3. **Closed resolved issue**: #356 (calculate_vtquj already merged)
-4. **Rebase requested**: 16 QA-approved PRs with merge conflicts
-5. **QA requested**: PRs #326, #320, #232 (no reviews yet)
-6. **Dev retriggered**: 15 stalled issues with no open PRs
-7. **Changes re-requested**: PR #282 (scope creep), PR #149 (more tests)
+## Heartbeat Actions — 2026-03-07 (2nd cycle)
+1. **Merged**: PR #412 (greet_mmgmt0pb) — CI green on main
+2. **Closed issues**: #410, #411 (resolved by PR #412)
+3. **Closed duplicates**: PR #399, #403, #409, #413 (duplicate implementations)
+4. **Closed duplicate issue**: #414 (farewell already exists)
+5. **Scope creep caught**: PR #398 had `multiply_kz1ec` added — requested removal, dev fixed
+6. **Rebase requested**: PRs #395, #398, #402, #408 — QA approved but merge conflicts
+7. **QA retriggered**: PRs #382, #326, #320, #232 — still no reviews
+8. **Dev retriggered**: PRs #282 (scope creep fix), #149 (more tests)
+9. **New issues triaged**: #396 (calculate_kz1ec), #400 (greet_ce1zk), #404 (logging kz1ec), #405 (refactor kz1ec), #406 (greet_mmgm8eh4), #410 (greet_mmgmt0pb)
+10. **PRD/PROGRESS updated**: Added new merged PRs, updated stalled lists, added kz1ec feature request and planning
 
 ## Milestones
 - **v1.0.0** — in progress, core utility modules
