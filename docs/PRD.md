@@ -32,6 +32,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `multiply_ungea(a, b)` — PR #496 merged
 - `divide_ungea(a, b)` — PR #498 merged
 - `subtract_ungea(a, b)` — PR #505 merged
+- `greet_mmgxhaa6(name)` — PR #515 merged
 - `greet_mmgvbzws(name)` — PR #503 merged
 
 ### In Progress — PRs Open (QA Approved, Need Rebase)
@@ -69,7 +70,6 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `calculate_unufx(a, b)` — PR #149 (needs more test cases)
 
 ### Awaiting Dev — No PR Yet
-- `greet_mmgxhaa6(name)` — issue #513
 - `greet_mmgxdy9x(name)` — issue #510
 - `greet_mmgwpwub(name)` — issue #507
 - `calculate_v2kbe(a, b)` — issue #347
