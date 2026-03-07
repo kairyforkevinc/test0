@@ -6,6 +6,7 @@
 
 | PR | Description | Issues Resolved | Date |
 |----|-------------|-----------------|------|
+| #493 | `add_ungea` addition | #489 (parent #488) | 2026-03-07 |
 | #448 | `multiply_p5ru9_b` multiplication | #445 | 2026-03-07 |
 | #447 | `add_p5ru9_a` addition | #443, #444 | 2026-03-07 |
 | #426 | `divide_nuogg` division | #423 | 2026-03-07 |
@@ -52,10 +53,10 @@
 - [ ] `multiply_ss3z3_b` — issue #481, no PR yet
 - [ ] `subtract_ss3z3_c` — PR #486 open, awaiting QA (issue #484, parent #476)
 
-### Parent Issue #488 — Build math utility module ungea — Awaiting Dev
-- [ ] `add_ungea` — issue #489, /dev delegated
-- [ ] `subtract_ungea` — issue #490, /dev delegated
-- [ ] `multiply_ungea` — issue #491, /dev delegated
+### Parent Issue #488 — Build math utility module ungea — In Progress
+- [x] `add_ungea` — merged via PR #493 (issue #489)
+- [ ] `subtract_ungea` — PR #494 open, awaiting QA (issue #490)
+- [ ] `multiply_ungea` — issue #491, awaiting dev PR
 
 ### Open PRs — QA Approved, Awaiting Rebase (agents.md conflicts) — /dev requested on all
 - PR #451 — `subtract_p5ru9_c` (issue #446)
