@@ -13,6 +13,7 @@ E2E test project with utility functions (math, greet, farewell). Each module exp
 - `greet_ce1zk(name: string): string` — returns `"Hello, {name}!"` (in `src/greeting_ce1zk.ts`)
 - `greet_mmgm8eh4(name: string): string` — returns `"Hello, {name}!"`, throws `Error('Name cannot be empty')` for null/undefined/empty input (in `src/greet_mmgm8eh4.ts`)
 - `greet_mmgvbzws(name: string): string` — returns `"Hello, {name}!"`, throws `Error('Name cannot be empty')` for empty/whitespace input (in `src/greet_mmgvbzws.ts`)
+- `greet_mmgwpwub(name: string): string` — returns `"Hello, {name}!"`, throws `Error('Name cannot be empty')` for empty/whitespace input (in `src/greet_mmgwpwub.ts`)
 - `add_*(a: number, b: number): number` — addition (multiple variants, includes `add_fyizk`, `add_wt6vj`, `add_nuogg`, `add_p5ru9_a`, `add_ungea`)
 - `subtract_*(a: number, b: number): number` — subtraction (multiple variants, includes `subtract_fyizk`, `subtract_bwv2l_c`, `subtract_wt6vj`, `subtract_nuogg`, `subtract_p5ru9_c`, `subtract_ungea`)
 - `multiply_*(a: number, b: number): number` — multiplication (multiple variants, includes `multiply_fyizk`, `multiply_bwv2l_b`, `multiply_wt6vj`, `multiply_nuogg`, `multiply_p5ru9_b`, `multiply_ungea`)
