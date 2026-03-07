@@ -13,6 +13,14 @@ describe('greet_mmgvbzws', () => {
     expect(() => greet_mmgvbzws('   ')).toThrow('Name cannot be empty');
   });
 
+  it('should throw for null', () => {
+    expect(() => greet_mmgvbzws(null)).toThrow('Name cannot be empty');
+  });
+
+  it('should throw for undefined', () => {
+    expect(() => greet_mmgvbzws(undefined)).toThrow('Name cannot be empty');
+  });
+
   it('should handle name with spaces', () => {
     expect(greet_mmgvbzws('John Doe')).toBe('Hello, John Doe!');
   });
