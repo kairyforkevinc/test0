@@ -12,4 +12,12 @@ describe('greet_mmgmt0pb', () => {
   it('should handle name with spaces', () => {
     expect(greet_mmgmt0pb('John Doe')).toBe('Hello, John Doe!');
   });
+
+  it('should throw for null input', () => {
+    expect(() => greet_mmgmt0pb(null)).toThrow('Name cannot be null or undefined');
+  });
+
+  it('should throw for undefined input', () => {
+    expect(() => greet_mmgmt0pb(undefined)).toThrow('Name cannot be null or undefined');
+  });
 });
