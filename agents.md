@@ -8,6 +8,7 @@ E2E test project with utility functions (math, greet, farewell). Each module exp
 - `greet(name: string): string` — returns `"Hello, {name}!"`
 - `greet_mm6crhi1(name: string): string` — returns `"Hello, {name}!"`, throws `Error('Name cannot be empty')` for empty/whitespace-only input
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `greet_ebk2v(name: string): string` — returns `"Hello, {name}!"` (in `src/greeting_ebk2v.ts`)
 - `greet_mmgmt0pb(name: string): string` — returns `"Hello, {name}!"` (in `src/greet_mmgmt0pb.ts`)
 - `greet_juqtv(name: string): string` — returns `"Hello, {name}!"` (in `src/greeting_juqtv.ts`)
