@@ -6,6 +6,7 @@
 
 | PR | Description | Issues Resolved | Date |
 |----|-------------|-----------------|------|
+| #385 | `subtract_bwv2l_c` subtraction | #378 (parent #375) | 2026-03-07 |
 | #384 | `multiply_bwv2l_b` multiplication | #377 (parent #374) | 2026-03-07 |
 | #316 | `calculate_x4u8k` math utility | #315 | 2026-03-07 |
 | #370 | `add_wt6vj` addition function | #367 (parent #366 Task 1) | 2026-03-03 |
@@ -49,7 +50,6 @@
 - PR #149 — `calculate_unufx` — needs more test cases, dev retriggered
 
 ### Stalled Issues — Dev Retriggered 2026-03-07
-- #378 — `subtract_bwv2l_c`
 - #376 — `add_bwv2l_a` (has PR #382)
 - #350 — `greet_ebk2v` (prev PR #351 closed)
 - #359 — `greet_juqtv` (prev PR #361 closed)
