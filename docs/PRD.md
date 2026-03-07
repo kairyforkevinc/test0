@@ -74,6 +74,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - `calculate_sstht(a, b)` — issue #295
 - `subtract_rz23k(a, b)` — issue #294
 - `add_qwu48_a(a, b)` — issue #461
+- `multiply_qwu48_b(a, b)` — issue #462
 
 ### Feature Requests (Not Scoped)
 - Structured logging for 32mtp module (#336) — needs discussion, low priority
