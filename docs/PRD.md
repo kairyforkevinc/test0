@@ -98,6 +98,7 @@ E2E test project providing standalone utility functions (math, greet, farewell) 
 - Structured logging for v2kbe module (#352) — needs discussion, low priority
 - Structured logging for vtquj module (#362) — needs discussion, low priority
 - Structured logging for kz1ec module (#404) — needs discussion, low priority
+- Structured logging for yjy7a module (#524) — needs discussion, low priority
 
 ### Planning
 - Refactor of 32mtp module (#337) — deferred until #332 merges and #336 is scoped
